@@ -1,0 +1,17 @@
+---
+# this manifest deploys one apps
+# cf push should be run from fireplace
+
+applications:
+- name: musamba
+  instances: 1
+  random-route: true
+  buildpacks:
+    - java_buildpack
+  path: c:\Users\linos\Downloads\vastzlin\target\vasteras-0.0.1-SNAPSHOT.jar
+  memory: 768M
+    env:
+    SPRING_PROFILES_ACTIVE: cloud,postgressql,mysql
+  services:
+  - spring-bootstrap-db
+
