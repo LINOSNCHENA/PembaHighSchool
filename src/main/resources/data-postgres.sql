@@ -1,5 +1,3 @@
-use presly;
-
 INSERT INTO courses(name, code) VALUES('INSY118', 2011);
 INSERT INTO courses(name, code) VALUES('INSY336', 2013);
 INSERT INTO courses(name, code) VALUES('INSY308', 2012);

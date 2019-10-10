@@ -12,7 +12,7 @@
 	<groupId>com.monze</groupId>
 	<artifactId>vasteras</artifactId>
 	<version>bulls1</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>vasteras</name>
 	<description>PembaHigh School registry in Spring Boot</description>
 
