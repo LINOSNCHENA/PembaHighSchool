@@ -1,3 +1,4 @@
+use presly;
 
 INSERT INTO courses(name, code) VALUES('INSY118', 2011);
 INSERT INTO courses(name, code) VALUES('INSY336', 2013);
@@ -17,7 +18,6 @@ INSERT INTO teachers(name, code) VALUES('Siamplongo', 464000);
 INSERT INTO teachers(name, code) VALUES('Ncube', 3671000);
 
 
-
 INSERT INTO students(name, code) VALUES('Martin', 1993);
 INSERT INTO students(name, code) VALUES('Kachana', 1994);
 INSERT INTO students(name, code) VALUES('Cholwe', 1993);
@@ -28,3 +28,5 @@ INSERT INTO students(name, code) VALUES('Biggie', 1993);
 INSERT INTO students(name, code) VALUES('Kachana', 1994);
 INSERT INTO students(name, code) VALUES('Justina', 1994);
 INSERT INTO students(name, code) VALUES('Marvin', 1993);
+
+select * from teachers, courses, students
