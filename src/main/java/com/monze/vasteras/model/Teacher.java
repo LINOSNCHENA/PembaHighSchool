@@ -45,9 +45,9 @@ public class Teacher {
 
 @Override
 public String toString() {
-    final StringBuilder sb = new StringBuilder("Teacher{"); sb.append("id=").append(id);
-    sb.append(", name='").append(name).append('\'');
-    sb.append(", code=").append(code); sb.append('}');   return sb.toString();
+    final StringBuilder pemba = new StringBuilder("Teacher{"); pemba.append("id=").append(id);
+    pemba.append(", name='").append(name).append('\'');
+    pemba.append(", code=").append(code);       pemba.append('}');   return pemba.toString();
     }
 }
 
