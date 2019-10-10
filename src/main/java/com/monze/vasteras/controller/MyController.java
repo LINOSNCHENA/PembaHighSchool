@@ -24,21 +24,19 @@ public class MyController {
     public String findCities(Model model) {
         List<Teacher> teachers = (List<Teacher>) DBService.Teachers();
         model.addAttribute("teachers", teachers);
-        return "showTeachers";
-    }
+        return "showTeachers";    }
+
     @GetMapping("/showStudents")
     public ModelAndView showStudents() {
        List<Student> students = DBService.Students();
        Map<String, Object> params = new HashMap<>();
        params.put("students", students);
-    return new ModelAndView("showStudents", params);
-    }
+       return new ModelAndView("showStudents", params);    }
     
     @GetMapping("/showCourses")
     public ModelAndView showCourses() {
         List<Course> courses = DBService.Courses();
         Map<String, Object> params = new HashMap<>();
         params.put("courses", courses);
-    return new ModelAndView("showCourses", params);
-}
+        return new ModelAndView("showCourses", params);     }
 }
