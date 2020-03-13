@@ -27,7 +27,7 @@ mvn spring-boot: run
 ![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/Multiple-database-connections-in-spring-boot/blob/extra/springboox/page2.png)
 ![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/Multiple-database-connections-in-spring-boot/blob/extra/springboox/page3.png)
 
-## Localhost links
+## Localhost Routes
 FIRST PAGE
 http://localhost:8080
 SECOND PAGE
