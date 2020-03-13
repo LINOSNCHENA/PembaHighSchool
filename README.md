@@ -23,14 +23,17 @@ mvn spring-boot: run
 ## Interface UX
  Below are screens shots from the application
 
-![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/EmployeesRregistry-from-NodeJS-PostgreSQL/blob/feature/redirections/page1.png)
-![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/EmployeesRregistry-from-NodeJS-PostgreSQL/blob/feature/redirections/page2.png)
+![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/Multiple-database-connections-in-spring-boot/blob/extra/springboox/page1.png)
+![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/Multiple-database-connections-in-spring-boot/blob/extra/springboox/page2.png)
+![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/Multiple-database-connections-in-spring-boot/blob/extra/springboox/page3.png)
 
 ## Localhost links
 
 http://localhost:8080
+ONE
 http://localhost:8080/showTeachers
+TWO
 http://localhost:8080/showStudents
+THREE
 http://localhost:8080/showCourses
-
-
+FOUR
