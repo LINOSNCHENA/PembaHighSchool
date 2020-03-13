@@ -1,4 +1,4 @@
-# JAVA-SPRINGBOOT, POSTGREE-MySQL with CONNECTED TABLES
+# JAVA-SPRINGBOOT, PostgreSQL with 3-TABLES
 
 This application presents an interface for three tables. One master table and two slave tables. The slave tables are both linked to the master table by a foreign key. The principle is that the slave tables cannot be finned until a corresponding value (foreign key) is present t in the master table.
 
@@ -28,12 +28,11 @@ mvn spring-boot: run
 ![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/Multiple-database-connections-in-spring-boot/blob/extra/springboox/page3.png)
 
 ## Localhost links
-
+FIRST PAGE
 http://localhost:8080
-ONE
+SECOND PAGE
 http://localhost:8080/showTeachers
-TWO
+THIRD PAGE
 http://localhost:8080/showStudents
-THREE
+FOURTH PAGE
 http://localhost:8080/showCourses
-FOUR
