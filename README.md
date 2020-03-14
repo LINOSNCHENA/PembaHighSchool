@@ -1,4 +1,4 @@
-# PostgreSQL, MSSQL, SPRINGBOOT, AND  MAVEN
+# MSSQL and PostgreSQL, MySQL, SPRINGBOOT, AND  MAVEN
 
 This microservice application presents an interface for three tables. One primary table and two secondary tables. The secondary tables are both linked to the master table by a single foreign key. The principle is that the secondary tables cannot be created or found until a corresponding value (foreign key) is present in the master table.
 
