@@ -17,15 +17,12 @@ Note: In the database used the data type of the primary-key in MySQL and MSSQL i
 ### Running the application
 
 Execution of this application use the following two command;
+
+```
 mvn clean package
 mvn spring-boot: run
 
-## Interface UX
- Below are screens shots from the application
-
-![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/Multiple-database-connections-in-spring-boot/blob/master/page1.png)
-![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/Multiple-database-connections-in-spring-boot/blob/master/page2.png)
-![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/Multiple-database-connections-in-spring-boot/blob/master/page3.png)
+```
 
 ## Routes to each service
 
@@ -37,3 +34,11 @@ THIRD PAGE
 http://localhost:8080/showStudents
 FOURTH PAGE
 http://localhost:8080/showCourses
+
+
+## Interface UX
+ Below are screens shots from the application
+
+![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/Multiple-database-connections-in-spring-boot/blob/master/page1.png)
+![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/Multiple-database-connections-in-spring-boot/blob/master/page2.png)
+![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/Multiple-database-connections-in-spring-boot/blob/master/page3.png)
