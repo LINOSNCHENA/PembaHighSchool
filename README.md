@@ -20,7 +20,7 @@ Execution of this application use the following two command;
 
 ```
 mvn clean package
-mvn spring-boot: run
+mvn spring-boot:run
 
 ```
 

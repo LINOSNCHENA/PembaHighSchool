@@ -12,13 +12,13 @@
 	<groupId>com.monze</groupId>
 	<artifactId>vasteras</artifactId>
 	<version>bulls1</version>
-	<packaging>war</packaging>
+	<!-- <packaging>war</packaging> -->
 	<name>vasteras</name>
 	<description>Local-High School registry Office in Spring Boot</description>
 
 	<properties>
 		<java.version>12</java.version>
-		<start-class>com.monze.praha.PrahaApplication</start-class>
+		<start-class>com.monze.vasteras.VasterasApplication</start-class>
 	</properties>
 
 <dependencies>
