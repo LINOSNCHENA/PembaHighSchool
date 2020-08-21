@@ -1,9 +1,6 @@
-# MSSQL and PostgreSQL, MySQL, SPRINGBOOT, AND  MAVEN
+# MSSQL,PostgreSQL, MySQL and SPRING-BOOT
 
-This microservice application presents an interface for three tables. One primary table and two secondary tables. The secondary tables are both linked to the master table by a single foreign key. The principle is that the secondary tables cannot be created or found until a corresponding value (foreign key) is present in the master table.
-
-There are three separate api each catering for the respective table. Moreover, the is a form that has be provided for API end-point test imitating how postman app works. You could use it to test GET and POST. Delete and Update are not yet implemented in the App.
-Several CRUD operations are implemented and exploited using three databases with a uniform interface as JSON data connectivity. Data entry MUST be complete.
+This microservice application presents an interface API for connecting to three different tables. One primary table and two secondary tables. The secondary tables are both linked to the master table by a single foreign key.  Moreover, POSTMAN could be used to test GET and POST. Delete and Update are not yet implemented. GET operations are implemented and exploited using three databases with a uniform interface as JSON data connectivity. Data entry MUST be complete, data integrity check installed.
 
 ### Technology Stack exploited
 
@@ -16,7 +13,7 @@ Note: In the database used the data type of the primary-key in MySQL and MSSQL i
 
 ### Running the application
 
-Execution of this application use the following two command;
+To execute this application, use the following two command;
 
 ```
 mvn clean package
@@ -40,6 +37,6 @@ http://localhost:8080/showCourses
  Below are screens shots from the application
 
 ![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/UXpemba/page%20(1).png)
-![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/UXpemba/page%20(2).png)
-![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/UXpemba/page%20(3).png)
-![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/UXpemba/page%20(4).png)
+![ Application Muntu Interface page #2 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/UXpemba/page%20(2).png)
+![ Application Muntu Interface page #3 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/UXpemba/page%20(3).png)
+![ Application Muntu Interface page #4 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/UXpemba/page%20(4).png)
