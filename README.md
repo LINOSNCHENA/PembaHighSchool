@@ -39,6 +39,7 @@ http://localhost:8080/showCourses
 ## Interface UX
  Below are screens shots from the application
 
-![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/Multiple-database-connections-in-spring-boot/blob/master/page1.png)
-![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/Multiple-database-connections-in-spring-boot/blob/master/page2.png)
-![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/Multiple-database-connections-in-spring-boot/blob/master/page3.png)
+![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/UXpemba/page%20(1).png)
+![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/UXpemba/page%20(2).png)
+![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/UXpemba/page%20(3).png)
+![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/UXpemba/page%20(4).png)
