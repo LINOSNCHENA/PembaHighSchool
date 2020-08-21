@@ -20,23 +20,26 @@ public class MyController {
     @Autowired
     private historyMajors DBService;
 
-    @GetMapping("/showTeachers")
-    public String findCities(Model model) {
+    @GetMapping("/showTeachers") // option #1
+    public String findTeachers(Model model) {
         List<Teacher> teachers = (List<Teacher>) DBService.Teachers();
         model.addAttribute("teachers", teachers);
-        return "showTeachers";    }
+        return "showTeachers";
+    }
 
-    @GetMapping("/showStudents")
+    @GetMapping("/showStudents") // option #2
     public ModelAndView showStudents() {
-       List<Student> students = DBService.Students();
-       Map<String, Object> params = new HashMap<>();
-       params.put("students", students);
-       return new ModelAndView("showStudents", params);    }
-    
-    @GetMapping("/showCourses")
+        List<Student> students = DBService.Students();
+        Map<String, Object> params = new HashMap<>();
+        params.put("students", students);
+        return new ModelAndView("showStudents", params);
+    }
+
+    @GetMapping("/showCourses") // option #2
     public ModelAndView showCourses() {
         List<Course> courses = DBService.Courses();
         Map<String, Object> params = new HashMap<>();
         params.put("courses", courses);
-        return new ModelAndView("showCourses", params);     }
+        return new ModelAndView("showCourses", params);
+    }
 }
