@@ -1,39 +1,46 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
-    <head>
-        <title>Courses</title>
-        <link rel="stylesheet" th:href="@{/main.css}" />
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
-        crossorigin="anonymous">
-    </head>
-    
-    <body>
-            <div class="container my-5">
-                    <div class="card"><br>
-                        <h2>LIST OF COURSES</h2>
-                       <div class="card-body">        
-       <table>
-        <tr><th>Id</th>
-            <th>Name</th>
-            <th>Course Code</th>
-        </tr>        
-        <tr th:each="course : ${courses}">
-            <td th:text="${course.id}">Id</td>
-            <td th:text="${course.name}">Name</td>
-            <td th:text="${course.code}">Code</td>
-        </tr>
-    </table>
+<head>
+    <title>Courses</title>
+    <link rel="stylesheet" th:href="@{/main.css}" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <br> <a href="showTeachers">Show Teachers [3]</a><br>
-    <br><a href="showStudents">Show Students [2]</a>
-</div>
-</div>
-</div>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
 
-    </body>
+<body>
+    <div class="container my-5">
+        <div class="card">
+
+            <br>
+            <h2>LIST OF COURSES</h2>
+            <div class="card-body">
+
+                <table class="center">
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Course Code</th>
+                    </tr>
+                    <tr th:each="course : ${courses}">
+                        <td th:text="${course.id}">Id</td>
+                        <td th:text="${course.name}">Name</td>
+                        <td th:text="${course.code}">Code</td>
+                    </tr>
+                </table>
+
+                <br><a href="showCourses"> Show courses [1]</a>
+                <br> <a href="showTeachers">Show teachers [2]</a>
+                <br> <a href="showStudents">Show students [3]</a><br>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
 </html>
