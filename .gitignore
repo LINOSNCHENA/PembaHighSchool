@@ -29,3 +29,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# general HSQL database files
+*Db.properties
+*Db.script
+*application.properties

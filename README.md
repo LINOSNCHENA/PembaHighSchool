@@ -25,13 +25,13 @@ mvn spring-boot:run
 ## Routes to each service
 
 FIRST PAGE
-http://localhost:8080\
+http://localhost:8080 \
 SECOND PAGE
-http://localhost:8080/showTeachers\
+http://localhost:8080/showTeachers \
  THIRD PAGE
 http://localhost:8080/showStudents \
 FOURTH PAGE
-http://localhost:8080/showCourses\
+http://localhost:8080/showCourses \
 
 
 ## Interface UX
