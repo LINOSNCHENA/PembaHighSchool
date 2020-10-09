@@ -1,4 +1,4 @@
-# Three different models in MSSQL,PostgreSQL, MySQL and Springboot
+# Three models in MSSQL,PostgreSQL, MySQL and Springboot
 
 This microservice application presents an interface API for connecting to three different tables. One primary table and two secondary tables. The secondary tables are both linked to the master table by a single foreign key. GET operations are implemented and exploited using three databases with a uniform interface as JSON data connectivity.
 
@@ -31,7 +31,7 @@ http://localhost:8080/showTeachers \
  THIRD PAGE
 http://localhost:8080/showStudents \
 FOURTH PAGE
-http://localhost:8080/showCourses \
+http://localhost:8080/showCourses 
 
 
 ## Interface UX
