@@ -34,3 +34,4 @@ build/
 *Db.properties
 *Db.script
 *application.properties
+*/application.properties

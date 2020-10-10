@@ -38,7 +38,7 @@ http://localhost:8080/showCourses
 ## Interface User-Xperience
  Below are screens shots from the application
 
-![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/UXpemba/page%20(1).png)
-![ Application Muntu Interface page #2 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/UXpemba/page%20(2).png)
-![ Application Muntu Interface page #3 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/UXpemba/page%20(3).png)
-![ Application Muntu Interface page #4 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/UXpemba/page%20(4).png)
+![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/uXviews/page%20(1).png)
+![ Application Muntu Interface page #2 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/uXviews/page%20(2).png)
+![ Application Muntu Interface page #3 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/uXviews/page%20(3).png)
+![ Application Muntu Interface page #4 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/uXviews/page%20(4).png)
