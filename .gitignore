@@ -30,7 +30,7 @@ build/
 ### VS Code ###
 .vscode/
 
-# general HSQL database files
+# general database files
 *Db.properties
 *Db.script
 *application.properties

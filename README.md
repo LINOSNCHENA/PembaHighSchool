@@ -1,16 +1,17 @@
-# Three models in MSSQL,PostgreSQL, MySQL and Springboot
+# 3 Data models,MSSQL,Postgresql, MySQL
 
-This microservice application presents an interface API for connecting to three different tables. One primary table and two secondary tables. The secondary tables are both linked to the master table by a single foreign key. GET operations are implemented and exploited using three databases with a uniform interface as JSON data connectivity.
+Microservice application presents an interface API for connecting to three tables. The secondary tables are both linked to the master table by a single foreign key. GET operations are implemented and exploited using three databases with a uniform interface as JSON data connectivity.
 
 ## Technology Stack used
 
 1. Spring-Boot
-2. Database1 (MySQL)
-3. Database2 (PostgreSQL) 
-4. Database3 (MSSQL)
-5. Maven Central
+2. Database Option #1 (MySQL)
+3. Database Option #2 (PostgreSQL) 
+4. Database Option #3 (MSSQL)
+5. Maven 
 
-Note: In the database used the data type of the primary-key in MySQL and MSSQL is auto-increment while in the PostgreSQL database the primary key field used is serial. Need changes in the data model design as necessary respectively. 
+Note: The primary-key in MySQL and MSSQL is auto-increment while in the PostgreSQL it is serial. \
+Need changes in the data model design as necessary respectively. 
 
 ## Running the application
 
@@ -22,19 +23,19 @@ mvn spring-boot:run
 
 ```
 
-## Routes to each service
+## Routes to each service available
 
-FIRST PAGE
+Screen #1
 http://localhost:8080 \
-SECOND PAGE
+Screen #2
 http://localhost:8080/showTeachers \
- THIRD PAGE
+Screen #3
 http://localhost:8080/showStudents \
-FOURTH PAGE
+Screen #4
 http://localhost:8080/showCourses 
 
 
-## Interface UX
+## Interface User-Xperience
  Below are screens shots from the application
 
 ![ Application Muntu Interface page #1 ](https://github.com/LINOSNCHENA/JAVA-Springboot-with-Multiple-databases/blob/master/UXpemba/page%20(1).png)
